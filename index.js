@@ -1,6 +1,6 @@
 'use strict';
 
-// Declare variables
+// Declare the variables
 let randomNum = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
