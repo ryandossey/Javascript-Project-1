@@ -14,7 +14,6 @@ const attemptsText = document.getElementById("attempts");
 document.querySelector('#submit').addEventListener('click', () => {
   const userValue = Number(guess.value);
   attempts++;
-  // Using Conditionals
   if (userValue > 100) {
     alert(`${userValue} guess is too high! Guess a lower number`);
   } else if (userValue < 1) {
